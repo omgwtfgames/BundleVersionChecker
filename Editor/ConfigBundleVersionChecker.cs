@@ -28,7 +28,7 @@ public static class ConfigBundleVersionChecker
 	/// <summary>
 	/// If set, version with history tracking will be generated.
 	/// </summary>
-	public static bool trackedMode = true;
+	public static bool trackedMode = false;
 
 	/// <summary>
 	/// Target dir for file [ClassName].cs and helper classes (if needed). Change this to the location where you want 
@@ -39,7 +39,7 @@ public static class ConfigBundleVersionChecker
 	/// <summary>
 	/// Dir where templates are found.
 	/// </summary>
-	public const string EditorSourceDir = "Assets/Editor/BundleVersionChecker/Editor";
+	public const string EditorSourceDir = "Assets/Libraries/BundleVersionChecker/Editor";
 
 	/// <summary>
 	/// Class name to use when tracking history is disabled.
